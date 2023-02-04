@@ -1,2 +1,4 @@
 # website_project
-First application after learning HTML/CSS 
+First project after learning HTML/CSS languages with **OpenClassrooms** courses.
+
+This two website are made for fun.
