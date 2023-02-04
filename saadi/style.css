@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'aliceregular';
+    src: url('fonts/Alice-Regular-webfont.eot');
+    src: url('fonts/Alice-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Alice-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Alice-Regular-webfont.woff') format('woff'),
+         url('fonts/Alice-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Alice-Regular-webfont.svg#aliceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'aliceregular', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: black;
+    background-image: url("background_image.webp");
+    background-attachment: fixed;
+}
+
+
+header{
+    display:flex;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+#bloc_page{
+    width: 1200px;
+    margin: auto;
+}
+
+.titre{
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px aliceblue;
+    margin-left: 30px;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav li
+{
+    margin-right: 15px;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 3px aliceblue;
+
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: black;
+}
+
+
+a:hover /* Apparence au survol des liens */
+{
+    color: darkslateblue;
+    text-shadow: 4px 4px 3px darkslateblue;
+}
+
+
+section{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+article{
+    margin: 10px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 2em;
+}
+
+
+article ul, p{
+    font-size: 0.8em;
+}
+
+.title1{
+    font-size: 1em;
+}
+
+.title2{
+    font-size: 0.9em;
+}
+
+.alltxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 5px black double;
+    padding-bottom: 100px;
+}
+
+.annexe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+}
